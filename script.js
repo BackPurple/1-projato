@@ -1,12 +1,12 @@
 function togglemode() {
   const html = document.documentElement
-  html.classList.toggle("ligth")
+  html.classList.toggle("light")
 
   // pegar a tag
   const img = document.querySelector("#profile img")
 
   // substituir a imagem
-  if (html.classList.contains("ligth")) {
+  if (html.classList.contains("light")) {
     //se tiver ligth mode, adicionar a imagem ligth
     img.setAttribute("src", "./assets/avatar-light.png")
   } else {
